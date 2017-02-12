@@ -1,0 +1,90 @@
+<html><script type="text/javascript">window["_gaUserPrefs"] = { ioo : function() { return true; } }</script>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="shortcut icon" href="/static/favicon.ico">
+
+
+  <style type="text/css">
+    h1 { margin: 0 0 30px 0; background: url(bypass_logo.png) no-repeat center; height: 165px; }
+    h1 span, p.tagline { display: none; }
+  </style>
+  <script type="text/javascript">
+    $(function() {
+      $('h1').bind('mousedown contextmenu', function(event) {
+        if (event.button != 2)
+          return;
+        var box = $('div.logohint');
+        if (!box.is(':visible'))
+          box.animate({'height': 'show', 'opacity': 'show'}, 100);
+        event.preventDefault();
+        event.returnValue = false;
+        return false;
+      });
+    });
+  </script>
+
+</head>
+<body data-pinterest-extension-installed="cr2.0.5" cz-shortcut-listen="true"><div class="box">
+  
+  
+    <h1><span>Welcome</span></h1>
+  
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="home.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body data-pinterest-extension-installed="cr2.0.5" cz-shortcut-listen="true">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="home.html">Home</a>
+                    </li>
+                </ul>
+            <!-- /.navbar-collapse -->
+        </div>
+
+
+        <!-- /.container -->
+    </nav>
+
+  <p class="tagline">because sometimes a pocket knife is not enough
+  </p><div class="logohint" style="display: none">
+    <p>
+      
+    </p><p>
+      Quicklinks: <a href="bypass_logo.png">PNG</a>
+  </p></div>
+
+<blockquote>
+    bypass is a 2-factor-authentication solution for purchases through voice controlled devices such as Alexa or Google Home. Thanks to our solution we will provide you with a dynamic code generated each time you have a request that needs protection and security on you personal phone. You will be able to say it aloud without any fears to confirm your purchases. 
+  </blockquote>
+  <p class="latestver">
+    <strong>Latest Version:</strong>
+    <a href="http://pypi.python.org/pypi/Flask/0.12" title="Download tarball">0.12</a>
+  </p><h2>bypass is crazy man</h2>
+  <pre><span class="ig">from flask import Flask
+app = Flask(__name__)</span>
+
+@app.route("/")
+def hello():
+    return "Hello World!"
+
+<span class="ig">if __name__ == "__main__":
+    app.run()</span></pre>
+  <h2>& easy to setup</h2>
+  <pre><span class="ig">$ </span>pip install Flask
+<span class="ig">$ </span>python hello.py
+<span class="ig"> * Running on http://localhost:5000/</span></pre>
+  <iframe src="http://ghbtns.com/github-btn.html?user=mitsuhiko&amp;repo=flask&amp;type=watch&amp;count=true&amp;size=large" width="190" height="35" style="float: right;border: none"></iframe>
+  
+  </p><p class="footer">
+    © Copyright 2017 by <a href="http://lucumr.pocoo.org/">Alexander Matheson</a> & 
+    <a href="http://mickatouillaud.com/">Micka Touillaud</a>
+</p></div></body></html>
